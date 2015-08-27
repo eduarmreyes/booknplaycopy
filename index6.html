@@ -1,5 +1,8 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<!--[if IE 7 ]> <html class="ie ie7"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <title>Home</title>
@@ -13,7 +16,7 @@
     <link rel="stylesheet" href="css/library/font-awesome.min.css">
     <link rel="stylesheet" href="css/library/bootstrap.min.css">
     <link rel="stylesheet" href="css/library/jquery-ui.min.css">
-        <link rel="stylesheet" href="css/library/owl.carousel.css">
+    <link rel="stylesheet" href="css/library/owl.carousel.css">
     <link rel="stylesheet" href="css/library/jquery.mb.YTPlayer.min.css">
     <!-- End Library CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -28,23 +31,26 @@
             </div>
         </div>
     </div>
+    
     <!-- Wrap -->
     <div id="wrap">
 
         <!-- Header -->
         <header id="header" class="header">
             <div class="container">
+                
                 <!-- Logo -->
                 <div class="logo float-left">
                     <a href="index.html" title=""><img src="images/logo-header.png" alt=""></a>
                 </div>
                 <!-- End Logo -->
+
                 <!-- Bars -->
                 <div class="bars" id="bars"></div>
                 <!-- End Bars -->
 
                 <!--Navigation-->
-                <nav class="navigation nav-l" id="navigation" data-menu-type="4000">
+                <nav class="navigation nav-c" id="navigation" data-menu-type="1200">
                     <div class="nav-inner">
                         <a href="#" class="bars-close" id="bars-close">Close</a>
                         <div class="tb">
@@ -53,8 +59,8 @@
                                     <li class="current-menu-parent">
                                         <a href="index.html" title="">Home</a>
                                         <ul class="sub-menu">
-                                            <li><a href="index.html" title="">Home menu 1</a></li>
-                                            <li class="current-menu-item"><a href="index2.html" title="">Home menu 2</a></li>
+                                            <li class="current-menu-item"><a href="index.html" title="">Home menu 1</a></li>
+                                            <li><a href="index2.html" title="">Home menu 2</a></li>
                                             <li><a href="index3.html" title="">Home menu 3</a></li>
                                             <li><a href="index4.html" title="">Home menu 4</a></li>
                                             <li><a href="index5.html" title="">Home background slide</a></li>
@@ -190,18 +196,24 @@
                     </div>
                 </nav>
                 <!--End Navigation-->
+
             </div>
         </header>
         <!-- End Header -->
 
         
-
         <!--Banner-->
         <section class="banner">
 
-            <!--Background-->
-            <div class="bg-parallax bg-1"></div>
-            <!--End Background-->
+            <!-- Banner Video Background -->
+            <div class="banner-video" id="banner-video">\
+                <div class="bg-fixed bg-1"></div>
+                <div class="banner-video-control">
+                    <span class="icon-play fa fa-play"></span>
+                </div>
+                <a id="banner-player" data-property="{videoURL:'https://www.youtube.com/watch?v=wJF5NXygL4k'}">Video Background</a>
+            </div>
+            <!-- Banner Video Background -->
 
             <div class="container">
 
@@ -324,7 +336,7 @@
                             </ul>
                             <div class="form-search clearfix">
                                 <div class="form-field field-destination">
-                                    <label for="destination"><span>Destination:</span> Asia...</label>
+                                    <label for="destination2"><span>Destination:</span> Asia...</label>
                                     <input type="text" id="destination2" class="field-input">
                                 </div>
                                 <div class="form-field field-select field-lenght">
@@ -332,9 +344,6 @@
                                         <span>Length of Cruise</span>
                                         <select>
                                             <option>Length of Cruise</option>
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
                                         </select>
                                     </div>
                                 </div>
@@ -519,7 +528,7 @@
                                         <span>Country</span>
                                         <select>
                                             <option>Country</option>
-                                            <option>Viet Name</option>
+                                            <option>Viet Nam</option>
                                             <option>Thai Lan</option>
                                         </select>
                                     </div>
