@@ -20,7 +20,8 @@
   <link rel="stylesheet" href="css/library/jquery.mb.YTPlayer.min.css">
   <!-- End Library CSS -->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/skin/square/gree.css">
+  <link rel="stylesheet" href="css/skins/square/green.css">
+  <link rel="stylesheet" href="css/responsive-table.css">
 </head>
 <body>
   <!-- Preloader -->
@@ -56,11 +57,11 @@
             <div class="tb">
               <div class="tb-cell">
                 <ul class="menu-list text-uppercase">
-                  <li class="current-menu-parent">
+                  <li>
                     <a href="index.html" title="">home</a>
                   </li>
-                  <li>
-                    <a href="#">terms</a>
+                  <li class="current-menu-parent">
+                    <a href="booking.html">Booking</a>
                   </li>
                   <li>
                     <a href="#" title="">privacy policy</a>
@@ -84,221 +85,284 @@
     </header>
     <!-- End Header -->
 
-
     <!--Banner-->
-    <section class="banner">
-      <div class="col-md-7 col-xs-12">
-        <div>
-          <span>Grounds</span>
-        <div>
-        <div>
-          <h5>4 Square Badminton Academy | <span class=" fa fa-picture-o fa-1x"></span></h5>
-          <p><strong>(Wooden Court</strong>)</p>
-          <p style="margin-left:48px !important;">
-            K R Nagar 2nd Street, Kasturi Nagar,<br>Korattur,Ambattur<br> 9884324170
-          </p>
-        </div>
+    <section class="sub-banner">
+      <!--Background-->
+      <div class="bg-parallax bg-1"></div>
+      <!--End Background-->
+      <!-- Logo -->
+      <div class="logo-banner text-center">
+        <a href="" title="">
+          <img src="images/logo-banner.png" alt="">
+        </a>
       </div>
-      <div class="col-md-2 col-xs-12">
-        <div>
-          <span>Rating</span>
-        </div>
-        <div>
-          <h5>7 days from 29th Aug</h5>
-          <div class="rating" style="cursor:default !important;">
-              (<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>)
-          </div>
-          <p><strong>Just pay an advance of ₹100 here<br> and the rest directly</strong></p>
-        </div>
-      </div>
+      <!-- Logo -->
     </section>
     <!--End Banner-->
 
-    <!-- Sales -->
-    <section class="sales">
-      
-    </section>
-    <!-- End Sales -->
-
-    <!-- Travel Destinations -->
-    <section class="destinations">
-
-      <!-- Title -->
-      <div class="title-wrap">
-        <div class="container">
-          <div class="travel-title" style="text-align: center;">
-            <h2>SERVICES</h2>
-            <div>
-              <span class="gray-color">
-              We offer a great service which bridges the gap between the spotrz freaks and the court owners.<br>
-              Easy two click <span class="gray-color">user experience.</span>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Title -->
-
-      <!-- Magazine Content -->
+    <!-- Main -->
+    <div class="main">
       <div class="container">
-        <div class="magazine-cn">
-          <div class="row">
-            <!-- Magazine Descript -->
-            <div class="col-lg-6">
-              <div class="magazine-ds">
-                <div>
-                  <!-- Magazine Descript Item -->
-                  <div class="magazine-item">
-                    <div class="magazine-header">
-                      <h2>Book and Play in no time</h2>
-                      <ul>
-                        <li>by <a href="" title="">Admin</a></li>
-                        <li>03.5.2014</li>
-                      </ul>
-                      <hr class="hr">
+        <div class="main-cn element-page bg-white clearfix">
+          <!--Breakcrumb-->
+          <section class="breakcrumb-sc">
+            <ul class="breadcrumb arrow">
+              <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+              <li>Booking</li>
+            </ul>
+          </section>
+          <!--End Breakcrumb-->
+          <section class="element-sc">
+            <!-- Content Table -->
+            <table class="rwd-table">
+              <tr>
+                <th>Grouds</th>
+                <th>Rating</th>
+                <th>Happy Hours</th>
+                <th>Fares</th>
+              </tr>
+              <tr>
+                <td data-th="Grouds">
+                  <div>
+                    <h5>4 Square Badminton Academy | <span class=" fa fa-picture-o fa-1x"></span></h5>
+                    <p><strong>(Wooden Court</strong>)</p>
+                    <p style="margin-left:48px !important;">K R Nagar 2nd Street, Kasturi Nagar,<br>Korattur,Ambattur<br> 9884324170</p>
+                  </div>            
+                </td>
+                <td data-th="Rating">
+                  <div class="bl_inner_info1 bl_inner_info floatleft">
+                    <h5>7 days from 30th Aug</h5>
+                    <div class="rating" style="cursor:default !important;">
+                      (<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>)
                     </div>
-                    <div class="magazine-body">
-                      <p>
-                        Tired of looking for a proper playground? Booknplay is the right place to be at. With our online booking service you can search for grounds/courts around you and book them with ease in the blink of an eye.
-                      </p>
-                    </div>
-                    <div class="magazine-footer clearfix">
-                      <div class="post-share magazine-share float-left">
-                        <a href="" title=""><i class="fa fa-facebook"></i></a>
-                        <a href="" title=""><i class="fa fa-twitter"></i></a>
-                        <a href="" title=""><i class="fa fa-google-plus"></i></a>
-                      </div>
-                      <a href="" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">Read More</a>
-                    </div>
+                    <p><strong>Just pay an advance of ₹100 here<br> and the rest directly</strong></p>
                   </div>
-                  <!-- End Magazine Descript Item -->
+                </td>
+                <td data-th="Happy Hours">
+                  <div class="bl_inner_info floatleft">
+                    <p style="display:none;">
+                      <strong><i class="fa fa-medkit"></i> First Aid | <i class="fa fa-glass"></i> Cold Water | <i class="fa fa-university"></i>ISO</strong>
+                    </p>
+                    <p>Book two consecutive slots between 8 PM and 2 PM and get 100 rupees off !</p>
+                  </div>
+                </td>
+                <td data-th="Fares">
+                  <div class="bl_fare floatright">
+                    <center>
+                      <h5>Rs.400/400<p></p></h5>
+                    </center>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <!-- End Content Table -->
+
+            <!--Accordion-->
+            <div class="element-cn">
+              <h2>Slots</h2>
+              <div class="row">
+
+                <div class="col-md-12">
+                  <!-- Accordion -->
+                  <div class="panel-group no-margin" id="accordion">
+
+                    <!-- Accordion 1 -->
+                    <div class="panel">
+                      <div class="panel-heading" id="headingOne">
+                        <h4 class="panel-title">
+                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            <small>Hide or Show</small>Slots
+                            <span class="icon fa fa-angle-down"></span>
+                          </a>
+                        </h4>
+
+                      </div>
+                      <div  id="collapseOne" class="panel-collapse collapse in" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                          <div class="col-md-12 text-center">
+                            No of courts:
+                            <select name="no_courts" id="no_courts">
+                              <option value="one">1</option>
+                            </select>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="alert-box alert-attention">
+                              <h6>Attention  message</h6>
+                              <span><i class="fa fa-angle-right"></i> Note: Non marking shoes are mandatory & no extra time will be allotted if time is lost due to power cuts.</span>
+                            </div>
+                          </div>
+                          <div class="col-md-3 col-xs-12 col-md-push-9">
+                              <div>
+                                <table>
+                                  <tbody>
+                                    <tr><td style="width:65px;">Weekday</td><td>: Rs.400</td></tr>
+                                    <tr><td style="width:65px;">Weekends</td><td>: Rs.400</td></tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                              <p><span class="bl_available"><input type="checkbox"></span> Available Slots</p>
+                              <p><span class="bl_booked"><input type="checkbox" disabled></span> Booked/Unallocated Slots</p>
+                              <p><span class="bl_selected"><input type="checkbox" checked></span> Selected Slots</p>
+                              
+                              <div class="divider-wrapper ">
+                                  <div class="divider"></div>
+                              </div>
+                              
+                              <p><strong>Slots : </strong><span id="selected_slots"><span class="dlabel labels213">31-Aug-2015 12pm(1)</span></span></p>
+                              <p><strong>Base Fare : </strong>Rs.<span id="base_price">100</span></p>
+                              <p><strong>Service Charge : </strong>Rs.<span id="service_charge">0</span></p>
+                              <p><strong>Total Fare : </strong>Rs.<span id="total_price">100</span></p>
+                              <div><button class="btn btn-primary">Book</button></div>
+                          </div>
+                          <div class="col-md-9 col-xs-12 col-md-pull-3">
+                            <table class="rwd-table">
+                              <tr>
+                                <th></th>
+                                <th>12 am</th>
+                                <th>1 am</th>
+                                <th>2 am</th>
+                                <th>3 am</th>
+                                <th>4 am</th>
+                                <th>5 am</th>
+                                <th>6 am</th>
+                                <th>7 am</th>
+                                <th>8 am</th>
+                                <th>9 am</th>
+                                <th>10 am</th>
+                                <th>11 am</th>
+                                <th>12 pm</th>
+                              </tr>
+                              <tr>
+                                <td nowrap>30 Aug 15</td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" checked></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox" checked></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                              </tr>
+                              <tr>
+                                <td nowrap>31 Aug 15</td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" checked></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox" checked></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                              </tr>
+                              <tr>
+                                <td nowrap>01 Sep 15</td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" checked></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox" checked></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                              </tr>
+                              <tr>
+                                <td nowrap>02 Sep 15</td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" checked></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox" checked></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                              </tr>
+                              <tr>
+                                <td nowrap>03 Sep 15</td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" checked></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox" checked></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                              </tr>
+                              <tr>
+                                <td nowrap>04 Sep 15</td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" checked></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox" checked></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                              </tr>
+                              <tr>
+                                <td nowrap>05 Sep 15</td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" checked></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox" checked></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox"></td>
+                                <td><input type="checkbox" disabled></td>
+                                <td><input type="checkbox" disabled></td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Accordion 1 -->
+
+                  </div>
+                  <!-- Accordion -->
                 </div>
+
               </div>
             </div>
-            <!-- End Magazine Descript -->
-            <!-- Magazine Descript -->
-            <div class="col-lg-6">
-              <div class="magazine-ds">
-                <div>
-                  <!-- Magazine Descript Item -->
-                  <div class="magazine-item">
-                    <div class="magazine-header">
-                      <h2>Smooth User Experience</h2>
-                      <ul>
-                        <li>by <a href="" title="">Admin</a></li>
-                        <li>03.5.2014</li>
-                      </ul>
-                      <hr class="hr">
-                    </div>
-                    <div class="magazine-body">
-                      <p>
-                        Our main objective is to make the booking experience for the user cosy, and that's why we insist on a user friendly online booking portal. For any concerns or issues please write to us. We are here to help you any time.
-                      </p>
-                    </div>
-                    <div class="magazine-footer clearfix">
-                      <div class="post-share magazine-share float-left">
-                        <a href="" title=""><i class="fa fa-facebook"></i></a>
-                        <a href="" title=""><i class="fa fa-twitter"></i></a>
-                        <a href="" title=""><i class="fa fa-google-plus"></i></a>
-                      </div>
-                      <a href="" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">Read More</a>
-                    </div>
-                  </div>
-                  <!-- End Magazine Descript Item -->
-                </div>
-              </div>
-            </div>
-            <!-- End Magazine Descript -->
-            <!-- Magazine Descript -->
-            <div class="col-lg-6">
-              <div class="magazine-ds">
-                <div>
-                  <!-- Magazine Descript Item -->
-                  <div class="magazine-item">
-                    <div class="magazine-header">
-                      <h2>Cool admin management</h2>
-                      <ul>
-                        <li>by <a href="" title="">Admin</a></li>
-                        <li>03.5.2014</li>
-                      </ul>
-                      <hr class="hr">
-                    </div>
-                    <div class="magazine-body">
-                      <p>
-                        The court owners, once they register with us will be provided with a friendly interface to manage their bookings and cancellations without even breaking a sweat from all internet enabled devices with just a few clicks of a button and forgo the abundant paper work.
-                      </p>
-                    </div>
-                    <div class="magazine-footer clearfix">
-                      <div class="post-share magazine-share float-left">
-                        <a href="" title=""><i class="fa fa-facebook"></i></a>
-                        <a href="" title=""><i class="fa fa-twitter"></i></a>
-                        <a href="" title=""><i class="fa fa-google-plus"></i></a>
-                      </div>
-                      <a href="" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">Read More</a>
-                    </div>
-                  </div>
-                  <!-- End Magazine Descript Item -->
-                </div>
-              </div>
-            </div>
-            <!-- End Magazine Descript -->
-            <!-- Magazine Descript -->
-            <div class="col-lg-6">
-              <div class="magazine-ds">
-                <div>
-                  <!-- Magazine Descript Item -->
-                  <div class="magazine-item">
-                    <div class="magazine-header">
-                      <h2>Book slots less than a min</h2>
-                      <ul>
-                        <li>by <a href="" title="">Admin</a></li>
-                        <li>03.5.2014</li>
-                      </ul>
-                      <hr class="hr">
-                    </div>
-                    <div class="magazine-body">
-                      <p>
-                        Check the slots available with just a tap of a button, choose... pay... And wa la... You are ready to pack your gears and get out there to play. It will be a cooler experience than it looks.
-                      </p>
-                    </div>
-                    <div class="magazine-footer clearfix">
-                      <div class="post-share magazine-share float-left">
-                        <a href="" title=""><i class="fa fa-facebook"></i></a>
-                        <a href="" title=""><i class="fa fa-twitter"></i></a>
-                        <a href="" title=""><i class="fa fa-google-plus"></i></a>
-                      </div>
-                      <a href="" title="" class="awe-btn awe-btn-5 arrow-right awe-btn-lager text-uppercase float-right">Read More</a>
-                    </div>
-                  </div>
-                  <!-- End Magazine Descript Item -->
-                </div>
-              </div>
-            </div>
-            <!-- End Magazine Descript -->
-          </div>
+            <!--End Accordion-->
+          </section>
         </div>
       </div>
-      <!-- End Magazine Content -->
-    </section>
-    <!-- End Travel Destinations -->
-
-    <section>
-      <div class="title-wrap">
-        <div class="container">
-          <!-- Confidence -->
-          <div class="col-md-12">
-            <blockquote>
-              <p>
-                Those were days when after a long tiring day's day in the office, u just wanna go home and hit the bed. My lovely sporty days in college and school were a distant memory. Weekends were just the days of no play because being new to a busy city in chennai we didn't know a place where we could play. Booknplay is like the perfect feast to my ravenous sporting appetite. I can just book early for a slot in the weekend and just wait eagerly for the weekends where I could just blow out the tension that I've accumulated over the week with my work in my company.
-              </p>
-              <footer style="background-color: #fff;"><cite title="Source Title">- Yogi - Senior Software Engineer - TCS</cite></footer>                  
-            </blockquote>
-          </div>
-          <!-- End Confidence -->
-
-        </div>
-      </div>
-    </section>
+    </div>
+    <!-- End Main -->
 
     <!-- Footer -->
     <footer>
@@ -376,21 +440,20 @@
 <script type="text/javascript" src="js/library/jquery.ui.touch-punch.min.js"></script>
 <script type="text/javascript" src="js/library/jquery.mb.YTPlayer.min.js"></script>
 <script type="text/javascript" src="js/library/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/library/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/library/icheck.min.js"></script>
 <!-- End Library JS -->
 <!-- Main Js -->
 <script type="text/javascript" src="js/script.js"></script>
 <!-- End Main Js -->
-<!-- iCheck Js -->
-<script type="text/javascript" src="js/icheck.min.js"></script>
-<!-- End iCheck Js -->
 <script>
-$(document).ready(function(){
-  $('input[type=checkbox]').iCheck({
-    checkboxClass: 'icheckbox_square',
-    radioClass: 'iradio_square',
+  $(document).ready(function(){
+    $('input[type=checkbox]').iCheck({
+      checkboxClass: 'icheckbox_square-green',
+      radioClass: 'iradio_square-green',
     increaseArea: '20%' // optional
   });
-});
+  });
 </script>
 </body>
 </html>
