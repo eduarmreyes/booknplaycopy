@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/library/jquery-ui.min.css">
   <link rel="stylesheet" href="css/library/owl.carousel.css">
   <link rel="stylesheet" href="css/library/jquery.mb.YTPlayer.min.css">
+  <link rel="stylesheet" href="css/library/stacktable.css">
   <!-- End Library CSS -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/skins/square/green.css">
@@ -215,7 +216,7 @@
                               <div><button class="btn btn-primary">Book</button></div>
                           </div>
                           <div class="col-md-9 col-xs-12 col-md-pull-3">
-                            <table class="rwd-table">
+                            <table id="responsive-example-table" class="stacktable" cellspacing="0">
                               <tr>
                                 <th></th>
                                 <th>12 am</th>
@@ -442,6 +443,7 @@
 <script type="text/javascript" src="js/library/SmoothScroll.js"></script>
 <script type="text/javascript" src="js/library/SmoothScroll.js"></script>
 <script type="text/javascript" src="js/library/icheck.min.js"></script>
+<script type="text/javascript" src="js/library/stacktable.js"></script>
 <!-- End Library JS -->
 <!-- Main Js -->
 <script type="text/javascript" src="js/script.js"></script>
@@ -451,8 +453,9 @@
     $('input[type=checkbox]').iCheck({
       checkboxClass: 'icheckbox_square-green',
       radioClass: 'iradio_square-green',
-    increaseArea: '20%' // optional
-  });
+      increaseArea: '20%' // optional
+    });
+    $('#simple-example-table').stacktable();
   });
 </script>
 </body>
