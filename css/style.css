@@ -255,6 +255,9 @@ section {
 .bg-10 {
   background-image: url('../images/background/bg-10.png');
 }
+.bg-11 {
+  background-image: url('../images/background/bg-11.jpg');
+}
 .tb {
   display: table;
 }
