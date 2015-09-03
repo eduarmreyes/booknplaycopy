@@ -19,13 +19,10 @@
   <link rel="stylesheet" href="css/library/owl.carousel.css">
   <link rel="stylesheet" href="css/library/jquery.mb.YTPlayer.min.css">
   <!-- <link rel="stylesheet" href="css/library/stacktable.css"> -->
-  <!-- <link rel="stylesheet" href="css/library/stickytableheaders.css"> -->
   <!-- End Library CSS -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/skins/square/green.css">
   <link rel="stylesheet" href="css/responsive-table.css">
-  <link rel="stylesheet" href="css/library/responsive-tables.css">
-  <link rel="stylesheet" href="css/booknplay.css">
 </head>
 <body>
   <!-- Preloader -->
@@ -118,51 +115,7 @@
           <!--End Breakcrumb-->
           <section class="element-sc">
             <!-- Content Table -->
-            <div class="col-md-12 green">
-              <h5>4 Square Badminton Academy | <span class=" fa fa-picture-o fa-1x"></span></h5>
-            </div>
-            <div class="row">
-              <div class="col-md-1 col-xs-12">Ground Type:</div>
-              <div class="col-md-4 col-xs-12">Cricket</div>
-              <div class="col-md-1 col-xs-12">Rating</div>
-              <div class="col-md-4 col-xs-12">3.5/5</div>
-              <div class="col-md-2 col-xs-12">RS. 300/500</div>
-            </div>
-            <div class="row">
-              <div class="col-md-1 col-xs-12">Address:</div>
-              <div class="col-md-4 col-xs-12">Miami Florida</div>
-              <div class="col-md-1 col-xs-12">Message 1:</div>
-              <div class="col-md-4 col-xs-12">Message, Message, Message</div>
-              <div class="col-md-2 col-xs-12"><button class="btn btn-primary">View Slots</button></div>
-            </div>
-            <div class="row">
-              <div class="col-md-4 col-xs-12 col-md-offset-1">Marteen, Bahamas, Miami....</div>
-              <div class="col-md-1 col-xs-12">Message 2:</div>
-              <div class="col-md-4 col-xs-12">Message, Message, Message</div>
-            </div>
-            <div class="col-md-12 green">
-              <h5>4 Square Badminton Academy | <span class=" fa fa-picture-o fa-1x"></span></h5>
-            </div>
-            <div class="row">
-              <div class="col-md-1 col-xs-12">Ground Type:</div>
-              <div class="col-md-4 col-xs-12">Cricket</div>
-              <div class="col-md-1 col-xs-12">Rating</div>
-              <div class="col-md-4 col-xs-12">3.5/5</div>
-              <div class="col-md-2 col-xs-12">RS. 300/500</div>
-            </div>
-            <div class="row">
-              <div class="col-md-1 col-xs-12">Address:</div>
-              <div class="col-md-4 col-xs-12">Miami Florida</div>
-              <div class="col-md-1 col-xs-12">Message 1:</div>
-              <div class="col-md-4 col-xs-12">Message, Message, Message</div>
-              <div class="col-md-2 col-xs-12"><button class="btn btn-primary">View Slots</button></div>
-            </div>
-            <div class="row">
-              <div class="col-md-4 col-xs-12 col-md-offset-1">Marteen, Bahamas, Miami....</div>
-              <div class="col-md-1 col-xs-12">Message 2:</div>
-              <div class="col-md-4 col-xs-12">Message, Message, Message</div>
-            </div>
-            <!-- <table class="rwd-table">
+            <table class="rwd-table">
               <tr>
                 <th>Grouds</th>
                 <th>Rating</th>
@@ -202,7 +155,7 @@
                   </div>
                 </td>
               </tr>
-            </table> -->
+            </table>
             <!-- End Content Table -->
 
             <!--Accordion-->
@@ -263,10 +216,10 @@
                               <div><a href="order.html" class="btn btn-primary">Book</a><!-- <button class="btn btn-primary">Book</button> --></div>
                           </div>
                           <div class="col-md-9 col-xs-12 col-md-pull-3">
-                            <table id="slot-view" class="responsive" cellspacing="0">
+                            <table id="responsive-example-table" class="stacktable" cellspacing="0">
                               <tbody>
                                 <tr>
-                                  <th></th>
+                                  <th class="st-head-row st-head-row-main"></th>
                                   <th>12 am</th>
                                   <th>1 am</th>
                                   <th>2 am</th>
@@ -581,7 +534,6 @@
 <script type="text/javascript" src="js/library/SmoothScroll.js"></script>
 <script type="text/javascript" src="js/library/icheck.min.js"></script>
 <!-- <script type="text/javascript" src="js/library/stacktable.js"></script> -->
-<script type="text/javascript" src="js/library/responsive-tables.js"></script>
 <!-- End Library JS -->
 <!-- Main Js -->
 <script type="text/javascript" src="js/script.js"></script>
@@ -593,6 +545,7 @@
       radioClass: 'iradio_square-green',
       increaseArea: '20%' // optional
     });
+    $('#responsive-example-table').stacktable({myClass: "stacktable"});
   });
 </script>
 </body>
